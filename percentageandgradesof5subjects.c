@@ -4,7 +4,7 @@ main()
 	int a,b,c,d,e;
 	float g;
 	scanf("%d%d%d%d%d",&a,&b,&c,&d,&e),
-	g=a+b+c+d+e/500;
+	g=a+b+c+d+e/500*100;
 	if(g>90)
 	{
 		printf("A");
