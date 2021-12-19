@@ -3,12 +3,12 @@ main()
 {
 	int a,b,c;
 	scanf("%d%d%d",&a,&b,&c);
-	if(a<b<c)
+	if(a<b&&a<c)
 	{
 		printf("a is minimum");
 	}
 	else
-	if(a>b<c)
+	if(b<a&&b<c)
 	{
 		("b is minimunm");
 	}
